@@ -1,0 +1,23 @@
+<resources>
+    <string name="app_name">Farmovo Foodtrak</string>
+    <string name="enter_text_plain">Enter Text</string>
+    <string name="generate_qrcode">Generate Foodtrak Code</string>
+    <string name="enter_contact_details">Enter Contact Details</string>
+    <string name="person_name">Person Name</string>
+    <string name="email_address">EMail Address</string>
+    <string name="contact_number">Contact Number</string>
+    <string name="enter_product_number">Enter Product Number</string>
+    <string name="product_number">Product Number</string>
+    <string name="enter_weblink">Enter WebLink</string>
+    <string name="date_harvested">Date Harvested</string>
+    <string name="date_planted">Date Planted</string>
+    <string name="package_unique_number">Package Unique Number</string>
+    <string name="enter_farm_details">Enter Farm/Product Details</string>
+    <string name="acre_number">Acre Number</string>
+    <string name="farm_location">Farm Location</string>
+    <string name="crop_name">Crop Name</string>
+    <string name="notes">Notes</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

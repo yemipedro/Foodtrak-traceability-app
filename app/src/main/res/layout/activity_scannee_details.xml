@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akinyemi.logicverse.farmovoqrbarcodescanner.ScannedDetails">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:id="@+id/deailts"
+        android:textSize="15sp"
+        android:text="hii"
+        android:layout_height="200dp"
+        android:layout_marginBottom="11dp"
+        android:layout_above="@+id/button2"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="70dp"
+        android:onClick="copymanager"
+        android:background="@drawable/shape"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="15dp"
+        android:text="Copy To ClipBoard"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:text="QR Code Details : "
+        android:textSize="22sp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_above="@+id/deailts"
+        android:layout_below="@+id/imageView2" />
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="2000dp"
+        android:layout_height="180dp"
+        app:srcCompat="@drawable/text"
+        android:layout_centerHorizontal="true" />
+
+</RelativeLayout>

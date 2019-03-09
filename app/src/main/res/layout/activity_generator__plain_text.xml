@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/aer"
+    android:layout_height="match_parent"
+    tools:context="com.akinyemi.logicverse.farmovoqrbarcodescanner.Generator_PlainText">
+
+    <TextView
+        android:text="@string/enter_text_plain"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="40sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="111dp"
+        android:id="@+id/entertext" />
+
+    <EditText
+        android:id="@+id/plaintextinput"
+        android:layout_width="match_parent"
+        android:layout_height="180dp"
+        android:backgroundTint="#ffff"
+        android:inputType="textMultiLine|textCapSentences|textNoSuggestions"
+        android:textColor="#ffff"
+        android:textSize="20sp"
+        android:layout_below="@+id/entertext"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="40dp" />
+    <Button
+        android:layout_width="match_parent"
+        android:background="#79a209df"
+        android:layout_height="70dp"
+        android:textSize="22sp"
+        android:text="@string/generate_qrcode"
+        android:onClick="genplaintext"
+        android:textColor="#cccccc"
+        android:id="@+id/plaintextqrcode"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

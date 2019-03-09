@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kola"
+    tools:context="com.akinyemi.logicverse.farmovoqrbarcodescanner.MainActivity">
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:background="@drawable/mystyle"
+        android:onClick="scanning"
+        android:paddingLeft="0dp"
+        android:paddingRight="10dp"
+        android:text="Read Foodtrak Code"
+        android:textColor="#fff"
+        android:textSize="24sp"
+        android:layout_below="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="29dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="280dp"
+        android:layout_height="70dp"
+        android:textColor="#fff"
+        android:background="@drawable/mystyle2"
+        android:onClick="generating"
+        android:text="Create Foodtrak Code"
+        android:textSize="23sp"
+        android:layout_below="@+id/imageView3"
+        android:layout_alignLeft="@+id/button"
+        android:layout_alignStart="@+id/button"
+        android:layout_marginTop="12dp" />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#ccc"
+        android:textSize="27sp"
+        android:textStyle="bold"
+        android:fontFamily="sans-serif-smallcaps"
+        android:text="Use Foodtrak"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <ImageView
+        android:id="@+id/imageView3"
+        android:layout_width="150dp"
+        android:layout_height="130dp"
+        app:srcCompat="@drawable/unnamed"
+        android:layout_below="@+id/textView3"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="93dp" />
+
+
+</RelativeLayout>

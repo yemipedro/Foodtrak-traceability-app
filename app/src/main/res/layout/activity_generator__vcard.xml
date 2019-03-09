@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/aer"
+    tools:context="com.akinyemi.logicverse.farmovoqrbarcodescanner.Generator_Vcard">
+        <TextView
+            android:text="@string/enter_contact_details"
+            android:textColor="#ffff"
+            android:gravity="center"
+            android:fontFamily="sans-serif-smallcaps"
+            android:textStyle="bold"
+            android:id="@+id/entercontactdetails"
+            android:textSize="27sp"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_above="@+id/textInputLayout"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginBottom="60dp" />
+
+        <EditText
+            android:id="@+id/emailvcard"
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:backgroundTint="#ffff"
+            android:drawableLeft="@drawable/ic_action_person_email"
+            android:drawablePadding="20dp"
+            android:hint="@string/email_address"
+            android:inputType="textEmailAddress"
+            android:textColor="#ffff"
+            android:textColorHint="#ffff"
+            android:textSize="20sp"
+            android:layout_below="@+id/contactnumbervcard"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true"
+            android:layout_marginTop="21dp" />
+        <Button
+            android:layout_marginTop="20dp"
+            android:layout_width="match_parent"
+            android:background="#79a209df"
+            android:layout_height="70dp"
+            android:textSize="22sp"
+            android:onClick="genvcard"
+            android:text="@string/generate_qrcode"
+            android:textColor="#cccccc"
+            android:id="@+id/vcardqrcode"
+            android:layout_alignParentBottom="true"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/contactnumbervcard"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="#ffff"
+        android:drawableLeft="@drawable/ic_action_person_contact"
+        android:drawablePadding="20dp"
+        android:hint="@string/contact_number"
+        android:inputType="phone"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:textSize="20sp"
+        android:layout_below="@+id/personnamevcard"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="21dp" />
+
+    <EditText
+        android:id="@+id/personnamevcard"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="#ffff"
+        android:drawableLeft="@drawable/ic_action_person_icon"
+        android:drawablePadding="20dp"
+        android:hint="@string/person_name"
+        android:inputType="text"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:textSize="20sp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="109dp" />
+</RelativeLayout>

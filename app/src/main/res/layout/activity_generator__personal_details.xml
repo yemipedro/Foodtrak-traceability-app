@@ -1,0 +1,176 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/kola"
+    tools:context="com.akinyemi.logicverse.farmovoqrbarcodescanner.Generator_PersonalDetails">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_centerVertical="true"
+            android:layout_centerHorizontal="true">
+
+            <TextView
+                android:text="@string/enter_farm_details"
+                android:textColor="#ffff"
+                android:gravity="center"
+                android:fontFamily="sans-serif-smallcaps"
+                android:textStyle="bold"
+                android:id="@+id/enterpersondetails"
+                android:textSize="27sp"
+                android:layout_width="match_parent"
+                android:layout_height="60dp"
+                android:layout_above="@+id/textInputLayout"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="60dp" />
+
+            <EditText
+                android:id="@+id/puNumber"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="#ffff"
+                android:drawableLeft="@mipmap/business"
+                android:drawablePadding="20dp"
+                android:hint="@string/package_unique_number"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp"
+                android:layout_below="@+id/cropName"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/cropName"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="#ffff"
+                android:drawableLeft="@mipmap/grow"
+                android:drawablePadding="20dp"
+                android:hint="@string/crop_name"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp"
+                android:layout_below="@+id/farmLocation"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/farmLocation"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="#ffff"
+                android:drawableLeft="@mipmap/location"
+                android:drawablePadding="20dp"
+                android:hint="@string/farm_location"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp"
+                android:layout_below="@+id/acreNumber"
+                android:layout_centerHorizontal="true" />
+
+            <EditText
+                android:id="@+id/acreNumber"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="#ffff"
+                android:drawableLeft="@mipmap/map"
+                android:drawablePadding="20dp"
+                android:hint="@string/acre_number"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/datePlanted"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="#ffff"
+                android:drawableLeft="@mipmap/calendar_month"
+                android:drawablePadding="20dp"
+                android:hint="@string/date_planted"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp"
+                android:layout_below="@+id/puNumber"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/dateHarvested"
+                android:layout_width="match_parent"
+                android:layout_height="56dp"
+                android:backgroundTint="#ffff"
+                android:drawableLeft="@mipmap/calendar_month"
+                android:drawablePadding="20dp"
+                android:hint="@string/date_harvested"
+                android:inputType="text"
+                android:paddingLeft="10dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp"
+                android:layout_below="@+id/datePlanted"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <EditText
+                android:id="@+id/notes"
+                android:layout_height="200dp"
+                android:layout_width="match_parent"
+                android:scrollbars="vertical"
+                android:backgroundTint="#ffff"
+                android:drawableLeft="@mipmap/notes"
+                android:drawablePadding="20dp"
+                android:hint="@string/notes"
+                android:lines="8"
+                android:minLines="6"
+                android:maxLines="10"
+                android:paddingLeft="10dp"
+                android:textColor="#ffff"
+                android:textColorHint="#ffff"
+                android:textSize="20sp"
+                android:inputType="textMultiLine"
+                android:layout_below="@+id/dateHarvested"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true" />
+
+            <Button
+                android:layout_width="280dp"
+                android:layout_height="70dp"
+                android:background="@drawable/mystyle"
+                android:textSize="24sp"
+                android:text="@string/generate_qrcode"
+                android:onClick="genpersonaldetails"
+                android:textColor="#ffffff"
+                android:layout_gravity="center|bottom"
+                android:layout_centerHorizontal="true"
+                android:id="@+id/qrpersondetails"
+                android:layout_alignParentBottom="true"
+                 />
+
+        </LinearLayout>
+    </ScrollView>
+
+</RelativeLayout>

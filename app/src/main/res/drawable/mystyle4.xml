@@ -1,0 +1,7 @@
+<shape xmlns:android="http://schemas.android.com/apk/res/android">
+    <corners
+        android:bottomLeftRadius="52dp"
+        android:bottomRightRadius="52dp"
+        android:topLeftRadius="52dp"
+        android:topRightRadius="52dp"/>
+</shape>

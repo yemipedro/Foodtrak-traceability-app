@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:background="@drawable/aer"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.akinyemi.logicverse.farmovoqrbarcodescanner.Generator_ProductNumber">
+    <TextView
+        android:text="@string/enter_product_number"
+        android:textColor="#ffff"
+        android:gravity="center"
+        android:id="@+id/enterproductnumber"
+        android:fontFamily="sans-serif-condensed"
+        android:textStyle="bold"
+        android:textSize="34sp"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="60dp" />
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="380dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="100dp"
+        android:id="@+id/textInputLayout"
+        android:layout_above="@+id/getproductqrcode"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"></android.support.design.widget.TextInputLayout>
+    <Button
+        android:layout_width="match_parent"
+        android:background="#79a209df"
+        android:layout_height="70dp"
+        android:textSize="22sp"
+        android:text="@string/generate_qrcode"
+        android:textColor="#cccccc"
+        android:onClick="genproductqr"
+        android:id="@+id/getproductqrcode"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+    <EditText
+        android:id="@+id/productgeneratednumber"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:backgroundTint="#ffff"
+        android:drawableLeft="@drawable/ic_action_product"
+        android:drawablePadding="20dp"
+        android:hint="@string/product_number"
+        android:inputType="text"
+        android:textColor="#ffff"
+        android:textColorHint="#ffff"
+        android:textSize="20sp"
+        android:layout_below="@+id/enterproductnumber"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="71dp" />
+</RelativeLayout>

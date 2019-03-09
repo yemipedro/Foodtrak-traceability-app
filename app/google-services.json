@@ -1,0 +1,135 @@
+{
+  "project_info": {
+    "project_number": "441844921074",
+    "firebase_url": "https://saja-fast-battery-charger-5x.firebaseio.com",
+    "project_id": "saja-fast-battery-charger-5x",
+    "storage_bucket": "saja-fast-battery-charger-5x.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441844921074:android:c62db24b98f7e193",
+        "android_client_info": {
+          "package_name": "com.akinyemi.logicverse.farmovoqrbarcodescanner"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441844921074-f2fu5qlptu7kjeturi36k98i3j9qtq2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_7NQDcHtWgXYI-D9HfGbzdPzRU_hG2_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441844921074:android:589923e07ff6fb5d",
+        "android_client_info": {
+          "package_name": "com.logicverse.reelmagic"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441844921074-f2fu5qlptu7kjeturi36k98i3j9qtq2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_7NQDcHtWgXYI-D9HfGbzdPzRU_hG2_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441844921074:android:63048a4c4fb665f2",
+        "android_client_info": {
+          "package_name": "com.myfonetv.a3wc.myfonetv"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441844921074-f2fu5qlptu7kjeturi36k98i3j9qtq2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_7NQDcHtWgXYI-D9HfGbzdPzRU_hG2_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:441844921074:android:31d53dda268f2bad",
+        "android_client_info": {
+          "package_name": "saja.battery.charger.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "441844921074-f2fu5qlptu7kjeturi36k98i3j9qtq2f.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA_7NQDcHtWgXYI-D9HfGbzdPzRU_hG2_Q"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
